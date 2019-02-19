@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_idescolar"
+            android:icon="@drawable/id_escolarbranco"
+            android:iconTint="#fff"
+            android:title="ID Escolar" />
+        <item
+            android:id="@+id/nav_aulas"
+            android:icon="@drawable/aulasbranco"
+            android:iconTint="#fff"
+            android:title="Aulas"/>
+        <item
+            android:id="@+id/nav_cardapio"
+            android:icon="@drawable/cardapiobranco"
+            android:iconTint="#fff"
+            android:title="Cardápio" />
+
+    </group>
+
+
+    <item android:title="">
+        <menu>
+
+        </menu>
+    </item>
+
+</menu>
